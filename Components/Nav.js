@@ -5,7 +5,7 @@ import Image from "next/image";
 const links = [
   { name: "Home", linkTo: "/" },
   { name: "About us", linkTo: "/about" },
-  { name: "Divisions", linkTo: "/divisions" },
+  { name: "CEO's Corner", linkTo: "/divisions" },
   { name: "Investments", linkTo: "/investments" },
   { name: "Contact us", linkTo: "/contact" },
 ];
@@ -19,7 +19,7 @@ const socialLinks = [
 function Nav() {
   const navLinks = links.map((linkItem) => {
     return (
-      <Link href={linkItem.linkTo} style="text-transform:capitalize">
+      <Link key={linkItem.name} href={linkItem.linkTo} style="text-transform:capitalize">
         <a className={styles.link}>{linkItem.name}</a>
       </Link>
     );
@@ -27,7 +27,7 @@ function Nav() {
 
   const socialNavLinks = socialLinks.map((linkItem) => {
     return (
-      <Link href={linkItem.linkTo}>
+      <Link key={linkItem.name} href={linkItem.linkTo}>
         <a className={styles.sociallink}>
           <Image src={linkItem.name} width={25} height={25} />
         </a>

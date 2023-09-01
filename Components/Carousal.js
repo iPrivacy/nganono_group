@@ -26,7 +26,7 @@ export default function Carousal() {
       >
         <SwiperSlide className={styles.swiperSlide}>
           <div>
-            <Image src="/image3.jpg" layout="fill" />
+            <Image src="/image5.jpeg" layout="fill" />
             <div className={styles.textWrapper}>
               <span className={styles.textTitle}>Lorem Ipsum Dolor</span>
               <p className={styles.text}>
@@ -41,7 +41,7 @@ export default function Carousal() {
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
           <div>
-            <Image src="/image2.jpg" layout="fill" />
+            <Image src="/image2.jpeg" layout="fill" />
             <div className={styles.textWrapper}>
               <span className={styles.textTitle}>Lorem Ipsum Dolor</span>
               <p className={styles.text}>
@@ -55,7 +55,7 @@ export default function Carousal() {
           </div>
         </SwiperSlide>{" "}
         <SwiperSlide className={styles.swiperSlide}><div>
-            <Image src="/image4.jpg" layout="fill" />
+            <Image src="/image4.jpeg" layout="fill" />
             <div className={styles.textWrapper}>
               <span className={styles.textTitle}>Lorem Ipsum Dolor</span>
               <p className={styles.text}>
@@ -68,7 +68,7 @@ export default function Carousal() {
             </div>
           </div></SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}><div>
-            <Image src="/image5.jpg" layout="fill" />
+            <Image src="/image5.jpeg" layout="fill" />
             <div className={styles.textWrapper}>
               <span className={styles.textTitle}>Lorem Ipsum Dolor</span>
               <p className={styles.text}>
